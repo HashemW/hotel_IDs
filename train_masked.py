@@ -15,7 +15,7 @@ import random
 
 # --- CONFIG ---
 # Update this path if you moved your folders
-FEATURES_DIR = r"D:\Coding\hotels\grid_features\train_images" 
+FEATURES_DIR = r"D:\Coding\hotels\grid_features_masked\train_images" 
 SAVE_PATH = "best_anyloc_model_masked.pth"
 
 # Updated Hyperparameters for SOTA training
