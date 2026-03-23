@@ -38,21 +38,6 @@ Identifying the hotel where a photograph was taken is a crucial step in human tr
 * **Data Processing:** PIL, NumPy, Pandas, Scikit-Learn
 * **Hardware:** Optimized for NVIDIA GPUs (CUDA)
 
-## 📂 Project Structure
-
-```text
-├── dataset/               # Raw images (Train/Test) and Masks
-├── grid_features/         # Pre-computed DINOv3 features (.pt files)
-├── src/
-│   ├── process_grid.py    # Feature extraction & Victim Masking
-│   ├── train_masked.py    # Main training loop (MS Loss + Cosine Annealing)
-│   ├── make_prototypes.py # Generates clean Hotel Prototypes for inference
-│   └── submit_kaggle.py   # Inference script for Kaggle submission
-├── weights/               # Saved model checkpoints
-└── README.md
-
-```
-
 ## ⚙️ Methodology
 
 1. **Masking & Preprocessing:**
